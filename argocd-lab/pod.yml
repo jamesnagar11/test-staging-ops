@@ -14,7 +14,8 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: httpd-Pod
+  name: httpd-pod
+  namespace: default
   labels:
     app: httpd
 spec:
@@ -29,6 +30,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: httpd-svc
+  namespace: default
 spec:
   selector:
     app: httpd 
