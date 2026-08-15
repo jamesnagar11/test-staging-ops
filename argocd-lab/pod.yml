@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: todo-next-app
-      image: jamesnagar/todo-app-k8s-test:1
+      image: jamesnagar/todo-app-k8s-test:6a2cdec9aeb4d2688dc1d5b6ce2481af0d47284c
       ports: 
         - containerPort: 3000
 
