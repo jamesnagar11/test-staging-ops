@@ -4,4 +4,5 @@ Git is the single source(CI) of truth with AgroCD (CD) to continuously delivery 
 #### Install ArgoCD in k8s cluster with this command
 
 `kubectl create namespace argocd`
+
 `kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`
